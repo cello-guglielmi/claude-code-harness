@@ -1,11 +1,15 @@
 {
   "permissions": {
     "allow": [
-      "Edit(/features/**)",
-      "Edit(/learnings/**)",
-      "Bash(python -m unittest *)",
-      "Bash(git add *)",
-      "Bash(git commit *)"
+      "Edit(/**)",
+      "Bash(git *)",
+      "Bash(python *)"
+    ],
+    "ask": [
+      "Bash(git reset *)",
+      "Bash(git clean *)",
+      "Bash(git branch -D *)",
+      "Bash(git rebase *)"
     ],
     "deny": [
       "Bash(git push *)",

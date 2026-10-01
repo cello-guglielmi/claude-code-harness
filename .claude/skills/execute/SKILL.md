@@ -1,5 +1,5 @@
 ---
-name: execution
+name: execute
 description: Harness step 2. Builds a planned feature (features/<slug>/PLAN.md) step by step on branch <slug>, proving each step against its DoD and logging it to features/<slug>/EXECUTION.md, then runs the review loop, summarizer and extractor. Resumable by running the same command again. Only run when the user invokes it.
 disable-model-invocation: true
 argument-hint: <slug>
