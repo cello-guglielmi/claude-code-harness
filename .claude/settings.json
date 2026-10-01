@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit(/features/**)",
+      "Edit(/learnings/**)",
+      "Bash(python -m unittest *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ],
+    "deny": [
+      "Bash(git push *)",
+      "Bash(git merge *)"
+    ]
+  }
+}
