@@ -2,7 +2,8 @@
 
 A plan, build, review workflow for Claude Code. Each feature is agreed up front, built step by step with proof, independently reviewed, and handed to you to merge.
 
-## THESIS → PLAN → EXECUTION → REVIEW → SUMMARY  // → LEARNINGS → REFLECTION
+## THESIS → PLAN → EXECUTION → REVIEW → SUMMARY
+## + LEARNINGS → REFLECTION
 
 ## Workflow
 
